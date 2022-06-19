@@ -47,7 +47,12 @@ We're using the local Kubernetes cluster provided by minikube. Start your cluste
 
 You can take a look at the (still empty) Kubernetes dashboard with:
 
-    minikube dashboard        
+    minikube dashboard      
+
+For example;
+
+![image](https://user-images.githubusercontent.com/48917750/174473195-1143f26e-c347-4080-afc2-fbb0a0f036f0.png)
+
 
  ## Deploying the service to Kubernetes
  
