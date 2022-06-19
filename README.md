@@ -100,16 +100,16 @@ You can look at the deployment with:
 
     kubectl get deployments
     
-		NAME              READY   UP-TO-DATE   AVAILABLE   AGE                                                                                                                      
-		spring-demo-app   1/1     1            1           132m  
+NAME              READY   UP-TO-DATE   AVAILABLE   AGE                                                                                                                  
+spring-demo-app   1/1     1            1           132m  
 
 		
-		kubectl get pods
+    kubectl get pods
 	  
-		NAME                              READY   STATUS    RESTARTS   AGE                                                                                                          
-		spring-demo-app-8c79454b8-mkzt8   1/1     Running   0          129m 
+NAME                              READY   STATUS    RESTARTS   AGE                                                                                                          
+spring-demo-app-8c79454b8-mkzt8   1/1     Running   0          129m 
 		
-		kubectl logs spring-demo-app-8c79454b8-mkzt8
+    kubectl logs spring-demo-app-8c79454b8-mkzt8
 		
 ![image](https://user-images.githubusercontent.com/48917750/174472760-ae755e96-8fbc-444b-a97a-179b28a7ad1f.png)
 
