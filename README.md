@@ -130,7 +130,7 @@ This would open your browser and point it, for example, to `[http://192.168.49.2
 Or on terminal;
     minikube ssh
 		
-		curl 192.168.49.2:30055 => Hello World
+    curl 192.168.49.2:30055 => Hello World
 ![image](https://user-images.githubusercontent.com/48917750/174473101-cf08e73a-c569-4d2c-8b2b-c2f3e80bb6da.png)
 
 	
