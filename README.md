@@ -116,7 +116,8 @@ You can look at the deployment with:
 
     kubectl get svc
 	 
-    NAME                  TYPE           CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE                                                                               spring-demo-service   LoadBalancer   10.101.212.151   <pending>     8080:30055/TCP   136m 
+    NAME                  TYPE           CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+    spring-demo-service   LoadBalancer   10.101.212.151   <pending>     8080:30055/TCP   136m 
     
 To now access the service, we can use a minikube command to tell us the exact service address:
 
