@@ -100,24 +100,23 @@ You can look at the deployment with:
 
     kubectl get deployments
     
-NAME              READY   UP-TO-DATE   AVAILABLE   AGE                                                                                                                  
-spring-demo-app   1/1     1            1           132m  
+    NAME              READY   UP-TO-DATE   AVAILABLE   AGE                                                                                                            
+    spring-demo-app   1/1     1            1           132m  
 
 		
     kubectl get pods
 	  
-NAME                              READY   STATUS    RESTARTS   AGE                                                                                                          
-spring-demo-app-8c79454b8-mkzt8   1/1     Running   0          129m 
-		
+    NAME                              READY   STATUS    RESTARTS   AGE                                                                                                 
+    spring-demo-app-8c79454b8-mkzt8   1/1     Running   0          129m 
+.	
     kubectl logs spring-demo-app-8c79454b8-mkzt8
 		
 ![image](https://user-images.githubusercontent.com/48917750/174472760-ae755e96-8fbc-444b-a97a-179b28a7ad1f.png)
 
 
-   kubectl get svc
+    kubectl get svc
 	 
-	 NAME                  TYPE           CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE                                                                                    
-	 spring-demo-service   LoadBalancer   10.101.212.151   <pending>     8080:30055/TCP   136m    
+    NAME                  TYPE           CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE                                                                               spring-demo-service   LoadBalancer   10.101.212.151   <pending>     8080:30055/TCP   136m    
 	 
 To now access the service, we can use a minikube command to tell us the exact service address:
 
